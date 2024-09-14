@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ibrahim AlQattan Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link href="output.css" rel="stylesheet" />
+  </head>
+
+  <body class="container mx-auto px-4 bg-grey-bg">
+    <div class="grid grid-cols-4">
+      <div name="navbar" class="flex pt-3 col-start-1 col-end-5">
+        <img src="img/logo.png" class="h-14">
+      </div>
+
+      <div class="flex gap-4 pt-3 items-center col-start-5 col-end-6">
+        <a href="https://instagram.com/sudochamp" target="_blank"><img src="img/socials/Instagram_Glyph_White.png" class="h-8"></a>
+        <a href="https://github.com/sudochamp" target="_blank"><img src="img/socials/github-mark-white.png" class="h-8"></a>
+        <a href="https://x.com/sudochamp" target="_blank" ><img src="img/socials/logo-white.png" class="h-8"></a>
+      </div>
+    </div>
+
+    <div class="mt-44 w-auto lg:w-[800px]">
+        <span name="intro" class="flex flex-col">
+            <p class="text-5xl text-white font-mukta">Hi, I'm Ibrahim</p>
+            <p class="text-base text-white font-mukta ml-[2px] mt-2">
+            and I like to make electronics. Mostly for fun, but they also can
+            come in handy sometimes. On this page, you'll find a showcase for
+            the electrical projects I've worked on. <br><br>
+            For contact info, <a href="https://github.com/sudochamp" target="_blank" class="text-yellow underline underline-offset-3">click here.</a>
+        </span>
+    </div>
+
+
+    <div class="mt-44 gap-8 columns-2">
+      <img src="img/projects/enlarger_timer_v2.png" class="w-auto">
+      <article class="text-wrap">
+          <h1 class="text-[2.5rem] text-white font-mukta">Darkroom Enlarger Timer</h1>
+          <p class="text-base text-white font-mukta ml-[2px] mt-6">
+              Bunch of gibberish and funny words to make a point about how cool this project is and was to work on. Yeah this thing works on AC power, can you imagine that? It's gonna be alright, I'll have a fire extinguisher nearby just in case too. No matter, the tests work fine on a breadboard with a 9V battery, but this thing needs to be hooked up to the same connection the enlarger will be connected to. Otherwise, I'd need to throw in a USB-C power port or something. Who wants that anyway? No one. Anyway, this thing does something call which is calculate exposure stops the proper logarithmic way and not the linear way which is most commonly done, by beginners I think at least. (I'm a beginner too, that's why I did this whole thing anyways.)
+              <br><br>
+              So, we've got 3 button, from left-to-right, decrease stop  by -1 interval,  start/stop exposure, increase stop by +1 interval. Then a switch for test mode, or print mode, and then a big knob to set the baseline exposure time. To change the stop interval, click the big knob and set your desired interval. You can do any interval in the nominator/denominator format. The / delimeter is replaced with a decimal point on the device. Can't make a / in the 7-segment display without making a 1, amirite?
+              <br><br>
+              For project files, visit <a href="github.com/sudochamp" target="_blank" class="text-yellow underline underline-offset-3">github.com/sudochamp</a>
+          </p>
+      </article>
+    </div>
+  </body>
+</html>
